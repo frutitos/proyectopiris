@@ -15,8 +15,16 @@ html {
 }
 
 .container {
-    margin: 10px;
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 .container p {
     margin: 0;
+}
+
+.container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
 }

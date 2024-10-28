@@ -1,10 +1,12 @@
 .windows {
     display: block;
 }
+
 .windows p {
     margin: 10px;
-    
+
 }
+
 .windows button h3 {
     font-size: 18px;
 }
@@ -25,6 +27,7 @@
 .windows-btn button:hover {
     background-color: #dedede;
 }
+
 .windows-btn button:active {
     background-color: #c2c2c2;
 }
@@ -34,4 +37,74 @@
     height: 100vh;
     background-color: #ffffff;
     box-shadow: 0px 0px 6px 1px rgb(104, 104, 104);
+}
+
+.dropdown {
+    margin: 20px;
+    user-select: none;
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: left;
+    padding: 5px;
+}
+.dropdown-header {
+    padding: 10px;
+    border: 1px solid #58b4ff;
+    border-radius: 5px;
+    transition: all .2s;
+}
+
+.dropdown-header:hover {
+    background-color: #e6f4ff;
+}
+
+
+
+.dropdown-subheader {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #58b4ff;
+}
+
+.dropdown-subheader:hover {
+    background-color: #e6f4ff;
+    transition: all .2s;
+}
+
+
+.dropdown-header.open,
+.dropdown-subheader.open {
+    background-color: #e6f4ff;
+    color: #000;
+}
+.dropdown-content {
+    padding: 0px 16px;
+    border-left: 3px solid #58b4ff;
+    margin-left: 10px;
+}
+
+.dropdown-subcontent {
+    border-left: 3px solid #a3d8ff;
+    margin-left: 20px;
+}
+.dropdown-content a {
+    transition: all .1s;
+}
+.dropdown-content a:hover {
+    transform: scale(1.05);
+    font-weight: bold;
+}
+
+.dropdown-subcontent a {
+    padding: 12px 16px;
+}
+
+.closeModal {
+    display: block;
+    position: absolute;
+    bottom: 10px;
 }
